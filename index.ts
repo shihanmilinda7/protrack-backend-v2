@@ -5,7 +5,7 @@ const { Server } = require("socket.io");
 console.log("process.env.NODE_ENV",process.env.NODE_ENV,)
 let url;
 if (process.env.NODE_ENV === "development") {
-  // Code to run in development environment
+  // Code to run in development environmentd
   url = "http://localhost:3001";
 } else {
   url = "http://erp2.ceyinfo.cloud";
